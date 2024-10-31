@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "halloween-sugar-futures"
+version = "0.1.0"
+description = ""
+authors = ["Marwin Steiner <marwin.steiner@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dynaconf = "^3.2.6"
+jupyter = "^1.1.1"
+pandas = "^2.2.3"
+numpy = "^2.1.2"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+scipy = "^1.14.1"
+polygon-api-client = "^1.14.2"
+yfinance = "^0.2.48"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
